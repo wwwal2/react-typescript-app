@@ -3,13 +3,13 @@ import React from 'react';
 import './style.css';
 
 class App extends React.PureComponent {
-	render() {
-		return (
-			<div>
-				<h1>Hello World!</h1>
-			</div>
-		);
-	}
+  render() {
+    return (
+      <div>
+        <h1>Hello World!</h1>
+      </div>
+    );
+  }
 }
 
 export default App;
