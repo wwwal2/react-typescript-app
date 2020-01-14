@@ -1,15 +1,16 @@
 import React from 'react';
+import Text from './components/Text';
 
 import './style.css';
 
-class App extends React.PureComponent {
-  render() {
+const text: string = 'TEXT';
+
+export default class App extends React.PureComponent {
+  render(): React.ReactNode {
     return (
       <div>
-        <h1>Hello World!</h1>
+        <Text text={text} name="a" />
       </div>
     );
   }
 }
-
-export default App;
